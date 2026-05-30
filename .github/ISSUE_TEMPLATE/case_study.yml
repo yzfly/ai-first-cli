@@ -1,0 +1,26 @@
+name: 📚 Case study
+description: Propose a tool that embodies (or violates) AI-First CLI principles.
+title: "[case-study] "
+labels: ["case-study"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool / project
+      placeholder: "e.g. the `gh` CLI, Stripe CLI, Vercel CLI"
+    validations:
+      required: true
+  - type: textarea
+    id: which
+    attributes:
+      label: Which principles does it embody or violate?
+      description: Reference principle numbers (1–12).
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links to docs, source, or behavior that demonstrate the point.
+    validations:
+      required: true

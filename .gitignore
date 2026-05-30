@@ -1,0 +1,21 @@
+# Build artifacts
+dist/
+*.skill
+*.zip
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*~
+
+# Python (skill-creator tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (if tooling added later)
+node_modules/

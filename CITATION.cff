@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "AI-First CLI: A design philosophy for command-line tools whose primary user is an AI agent"
+message: "If you use this work, please cite it as below."
+type: dataset
+authors:
+  - name: "云中江树 (yzfly)"
+    alias: yzfly
+repository-code: "https://github.com/yzfly/ai-first-cli"
+url: "https://github.com/yzfly/ai-first-cli"
+abstract: >-
+  A design philosophy and practical guide for building command-line tools whose
+  primary caller is an AI agent rather than a human. Twelve principles, a
+  source-verified Vercel case study, a self-audit checklist, and an installable
+  Claude skill.
+keywords:
+  - ai-first
+  - cli
+  - ai-agents
+  - agentic-infrastructure
+  - developer-experience
+  - claude-skill
+  - mcp
+  - vercel
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-05-31"

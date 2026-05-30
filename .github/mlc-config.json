@@ -1,0 +1,12 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https://x.com/" },
+    { "pattern": "^https://twitter.com/" },
+    { "pattern": "^https://github.com/yzfly/ai-first-cli" },
+    { "pattern": "^https://medium.com/" }
+  ],
+  "aliveStatusCodes": [200, 206, 301, 302, 403, 429],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s"
+}

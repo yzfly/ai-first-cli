@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussion / question
+    url: https://github.com/yzfly/ai-first-cli/discussions
+    about: Ask a question or discuss the methodology before opening an issue.

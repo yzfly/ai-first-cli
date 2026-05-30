@@ -1,0 +1,16 @@
+name: 🐛 Correction / typo / general
+description: Report an error, broken link, or anything else.
+title: "[fix] "
+labels: ["fix"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong, and where?
+      description: Link to the file/line if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction (optional)

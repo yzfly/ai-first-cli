@@ -1,0 +1,47 @@
+name: 🧭 Principle proposal / challenge
+description: Propose a new principle, or challenge an existing one — with evidence.
+title: "[principle] "
+labels: ["principle"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project holds itself to its own standard: **cite sources, be honest about uncertainty.**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - New principle
+        - Challenge an existing principle
+        - Refine wording of an existing principle
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: The principle, in one sentence
+      placeholder: "Machine output is the default, not a flag."
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why — and what breaks without it
+      description: Argue it. A do/don't example is ideal.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources / evidence
+      description: Links, with a note on confidence (first-party? marketing? independent?).
+    validations:
+      required: true
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: Honesty check
+      options:
+        - label: I have flagged any claim that is under-evidenced or contested.
+          required: true
